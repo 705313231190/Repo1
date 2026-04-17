@@ -1,2 +1,13 @@
-Rohit do you love janhavi 
-Rohit yes hellooooo
+pipeline {
+
+   agent anby {
+    
+    stages {
+      stage ('one') {
+        steps {
+         sleep 10
+            }
+      }
+    }
+  }
+}
