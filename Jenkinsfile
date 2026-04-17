@@ -1,6 +1,6 @@
 pipeline {
 
-   agent anby {
+   agent any {
     
     stages {
       stage ('one') {
