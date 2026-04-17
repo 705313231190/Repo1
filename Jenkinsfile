@@ -1,13 +1,11 @@
 pipeline {
+    agent any
 
-   agent any {
-    
     stages {
-      stage ('one') {
-        steps {
-         sleep 10
+        stage('one') {
+            steps {
+                sleep 10
             }
-      }
+        }
     }
-  }
 }
